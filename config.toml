@@ -1,4 +1,4 @@
-baseurl = "https://flatpickr.github.io/flatpickr/"
+baseurl = "https://flatpickr.github.io/"
 languageCode = "en-us"
 title = "flatpickr"
 theme = "hugo-material-docs"
@@ -53,7 +53,7 @@ pygmentsStyle = "manni"
 
 [social]
     twitter = ""
-    github  = "chmln/flatpickr"
+    github  = "flatpickr/flatpickr"
     email   = ""
 
 
