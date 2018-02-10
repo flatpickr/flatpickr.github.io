@@ -1,4 +1,4 @@
-[submodule "gh-pages"]
+[submodule "master"]
 	path = gh-pages
-	url = git://github.com/chmln/flatpickr.git
+	url = git://github.com/flatpickr/flatpickr.github.io.git
   ignore = dirty
