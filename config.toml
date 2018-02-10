@@ -1,4 +1,4 @@
-baseurl = "https://chmln.github.io/flatpickr/"
+baseurl = "https://flatpickr.github.io/flatpickr/"
 languageCode = "en-us"
 title = "flatpickr"
 theme = "hugo-material-docs"
@@ -17,7 +17,7 @@ pygmentsStyle = "manni"
 
     # Repository
     provider = "GitHub"
-    repo_url = "https://github.com/chmln/flatpickr"
+    repo_url = "https://github.com/flatpickr/flatpickr"
 
     version = "v4"
     logo = "images/logo.png"
