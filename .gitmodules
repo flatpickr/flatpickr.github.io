@@ -1,1 +1,5 @@
 
+[submodule "gh-pages"]
+	path = gh-pages
+	url = git://github.com/flatpickr/flatpickr.github.io.git
+	branch = master
