@@ -1,4 +1,1 @@
-[submodule "master"]
-	path = gh-pages
-	url = git://github.com/flatpickr/flatpickr.github.io.git
-  ignore = dirty
+
