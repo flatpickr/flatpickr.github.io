@@ -1,4 +1,4 @@
-baseurl = "https://flatpickr.github.io/"
+baseurl = "https://flatpickr.js.org/"
 languageCode = "en-us"
 title = "flatpickr"
 theme = "hugo-material-docs"
