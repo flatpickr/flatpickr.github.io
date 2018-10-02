@@ -35,7 +35,7 @@ onMonthChange gets triggered when the month is changed, either by the user or pr
 
 ### `onYearChange`
 
-onMonthChange gets triggered when the year is changed, either by the user or programmatically.
+onYearChange gets triggered when the year is changed, either by the user or programmatically.
 
 ```javascript
 
