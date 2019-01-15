@@ -454,7 +454,7 @@ flatpickr can parse an input group of textboxes and buttons, common in Bootstrap
 This permits additional markup, as well as custom elements to trigger the state of the calendar.
 
 ```html
-<div class=flatpickr>
+<div class="flatpickr">
     <input type="text" placeholder="Select Date.." data-input> <!-- input is mandatory -->
 
     <a class="input-button" title="toggle" data-toggle>
