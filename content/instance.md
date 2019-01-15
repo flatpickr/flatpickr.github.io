@@ -147,7 +147,7 @@ The container for all the day elements.
 
 ## Useful static methods
 
-flatpickr exposes its date parser and formatter which don't require an instance to work.
+flatpickr exposes its date parser and formatter which doesn't require an instance to work.
 
 While not as powerful as say `moment.js`, they're functional enough to replace it in most of the basic usecases.
 
