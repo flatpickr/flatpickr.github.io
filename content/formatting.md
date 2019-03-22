@@ -49,6 +49,11 @@ Each character in the table below can be used in `dateFormat` and `altFormat` op
 <td>0 (for Sunday) through 6 (for Saturday)</td>
 </tr>
 <tr>
+<td>W</td>
+<td>Numeric representation of the week</td>
+<td>0 (first week of the year) through 52 (last week of the year)</td>
+</tr>
+<tr>
 <td>F</td>
 <td>A full textual representation of a month</td>
 <td>January through December</td>
@@ -110,6 +115,11 @@ Each character in the table below can be used in `dateFormat` and `altFormat` op
 <tr>
 <td>h</td>
 <td>Hours</td>
+<td>1 to 12</td>
+</tr>
+<tr>
+<td>G</td>
+<td>Hours, 2 digits with leading zeros</td>
 <td>1 to 12</td>
 </tr>
 <tr>
