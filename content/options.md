@@ -44,7 +44,7 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td>appendTo</td>
             <td>HTMLElement</td>
             <td>null</td>
-            <td>Instead of&nbsp;<code>body</code>, appends the calendar to the specified node instead.</td>
+            <td>Instead of&nbsp;<code>body</code>, appends the calendar to the specified node instead*.</td>
         </tr>
         <tr>
             <td>ariaDateFormat</td>
@@ -234,7 +234,7 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td>static</td>
             <td>Boolean</td>
             <td>false</td>
-            <td>Position the calendar inside the wrapper and next to the input element. (Leave <code>false</code> unless you know what you're doing.</td>
+            <td>Position the calendar inside the wrapper and next to the input element*.</td>
         </tr>
         <tr>
             <td>time_24hr</td>
@@ -258,3 +258,5 @@ An always up-to-date list of options may be found at <a href="https://github.com
         </tr>
     </tbody>
 </table>
+
+<small>* Attaching the calendar to a specific element makes it depend on that element's position and style. If the calendar is not positioned as expected, check the CSS rules of the container.</small>
