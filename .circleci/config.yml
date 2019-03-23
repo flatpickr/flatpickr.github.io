@@ -16,7 +16,7 @@ jobs:
           command: |
             hugo -d /tmp/output
             ls -a
-            mv .circleci /tmp/output/
+            cp -R .circleci /tmp/output/.circleci
             git checkout master
             mv CNAME /tmp/output/
             ls -a /tmp/output
