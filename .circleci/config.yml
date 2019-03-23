@@ -14,15 +14,14 @@ jobs:
       - run:
           name: build
           command: |
+            shopt -s dotglob
             hugo -d /tmp/output
-            ls -a
-            cp -R .circleci /tmp/output/.circleci
+            mv .circleci /tmp/output/
             git checkout master
             mv CNAME /tmp/output/
-            ls -a /tmp/output
             rm -rf *
             mv /tmp/output/* .
-            ls -a
+            cat .circleci/config.yml
 
       - run:
           name: deploy
