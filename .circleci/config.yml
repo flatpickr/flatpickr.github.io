@@ -1,0 +1,32 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: jguyomard/hugo-builder
+
+    branches:
+      ignore:
+        - master
+
+    steps:
+      - checkout
+
+      - run:
+          name: build
+          command: |
+            hugo -d /tmp/output
+            git checkout master
+            mv CNAME /tmp/output/
+            rm -rf *
+            mv /tmp/output/* .
+
+      - run:
+          name: deploy
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "docs" ]; then
+              git config user.name "CircleCI Bot"
+              git config user.email "circleci@circleci"
+              git add --all
+              git commit -m "automated build"
+              git push -q
+            fi
