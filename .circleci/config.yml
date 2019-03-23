@@ -10,6 +10,7 @@ jobs:
           name: build
           command: |
             hugo -d /tmp/output
+            mv CNAME /tmp/output/
             git checkout master
             rm -rf *
             mv /tmp/output/* .
