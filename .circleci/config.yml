@@ -15,6 +15,7 @@ jobs:
           name: build
           command: |
             hugo -d /tmp/output
+            mv .circleci /tmp/output/
             git checkout master
             mv CNAME /tmp/output/
             rm -rf *
