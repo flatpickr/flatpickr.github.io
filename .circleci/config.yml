@@ -14,13 +14,15 @@ jobs:
       - run:
           name: build
           command: |
-            hugo -d /tmp/output
-            mv .circleci /tmp/output/
-            git checkout master
-            mv CNAME /tmp/output/
-            rm -rf *
-            mv /tmp/output/* .
-            mv /tmp/output/.circleci .circleci
+            if [ "${CIRCLE_BRANCH}" != "master" ]; then
+              hugo -d /tmp/output
+              mv .circleci /tmp/output/
+              git checkout master
+              mv CNAME /tmp/output/
+              rm -rf *
+              mv /tmp/output/* .
+              mv /tmp/output/.circleci .circleci
+            fi
 
       - run:
           name: deploy
