@@ -5,3 +5,7 @@ jobs:
       - image: jguyomard/hugo-builder
     steps:
       - checkout
+
+      - run:
+          name: build
+          command: hugo -d output
