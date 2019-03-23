@@ -28,5 +28,5 @@ jobs:
               git config user.email "circleci@circleci"
               git add --all
               git commit -m "automated build"
-              git push origin HEAD:deploy
+              git push
             fi
