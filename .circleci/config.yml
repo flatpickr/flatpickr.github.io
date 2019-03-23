@@ -21,6 +21,7 @@ jobs:
             mv CNAME /tmp/output/
             rm -rf *
             mv /tmp/output/* .
+            ls -a
 
       - run:
           name: deploy
