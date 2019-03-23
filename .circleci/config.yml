@@ -19,6 +19,7 @@ jobs:
             mv .circleci /tmp/output/
             git checkout master
             mv CNAME /tmp/output/
+            ls -a /tmp/output
             rm -rf *
             mv /tmp/output/* .
             ls -a
