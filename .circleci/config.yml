@@ -3,6 +3,11 @@ jobs:
   build:
     docker:
       - image: jguyomard/hugo-builder
+
+    branches:
+      ignore:
+        - master
+
     steps:
       - checkout
 
