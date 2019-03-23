@@ -23,7 +23,7 @@ jobs:
       - run:
           name: deploy
           command: |
-            if [ "${CIRCLE_BRANCH}" == "ci" ]; then
+            if [ "${CIRCLE_BRANCH}" == "docs" ]; then
               git config user.name "CircleCI Bot"
               git config user.email "circleci@circleci"
               git add --all
