@@ -1,2 +1,0 @@
-#!/bin/sh
-hugo -d pages && cd pages && git add --all && git commit -m "deploy" && git push
