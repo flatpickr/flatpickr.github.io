@@ -15,7 +15,7 @@ jobs:
             mv /tmp/output/* .
 
       - when:
-          condition: << $CIRCLE_BRANCH == "docs" >>
+          condition: $CIRCLE_BRANCH == "docs"
           name: deploy
           command: |
             echo "test"
