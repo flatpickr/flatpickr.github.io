@@ -19,7 +19,8 @@ jobs:
             git checkout master
             mv CNAME /tmp/output/
             rm -rf *
-            mv /tmp/output/* /tmp/output/.* .
+            mv /tmp/output/* .
+            mv /tmp/output/.* .
             cat .circleci/config.yml
 
       - run:
