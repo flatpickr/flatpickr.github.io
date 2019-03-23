@@ -19,6 +19,7 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "ci" ]; then
               git config user.name "CircleCI Bot"
+              git config user.email "circleci@circleci"
               git add --all
               git commit -m "automated build"
               git push -u origin/deploy
