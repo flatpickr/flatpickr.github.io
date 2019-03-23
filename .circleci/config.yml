@@ -14,8 +14,9 @@ jobs:
             rm -rf *
             mv /tmp/output/* .
 
-      - when:
-          condition: $CIRCLE_BRANCH == "ci"
+      - run:
           name: deploy
           command: |
-            echo "test"
+            if [ "${CIRCLE_BRANCH}" == "ci" ]; then
+              echo "test"
+            fi
