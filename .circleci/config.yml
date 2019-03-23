@@ -21,7 +21,6 @@ jobs:
             rm -rf *
             mv /tmp/output/* .
             mv /tmp/output/.circleci .circleci
-            cat .circleci/config.yml
 
       - run:
           name: deploy
