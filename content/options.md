@@ -219,6 +219,14 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td>Function that expects a date string and must return a Date object</td>
         </tr>
         <tr>
+            <td>position</td>
+            <td>String</td>
+            <td>"auto"</td>
+            <td>
+                Where the calendar is rendered relative to the input.<br><br><code>"auto"</code>, <code>"above"</code> or <code>"below"</code>
+             </td>
+        </tr>
+        <tr>
             <td>prevArrow</td>
             <td>String</td>
             <td><code>&lt;</code></td>
