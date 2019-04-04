@@ -21,7 +21,7 @@ jobs:
               mv CNAME /tmp/output/
               rm -rf *
               mv /tmp/output/* .
-              mv /tmp/output/.circleci .circleci
+              rsync -a --remove-source-files /tmp/output/.circleci .circleci
             fi
 
       - run:
