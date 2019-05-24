@@ -41,6 +41,12 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td>Allows the user to enter a date directly input the input field. By default, direct entry is disabled.</td>
         </tr>
         <tr>
+            <td>animate</td>
+            <td>Boolean</td>
+            <td>true</td>
+            <td>Whether to enable animations, such as month transitions.</td>
+        </tr>
+        <tr>
             <td>appendTo</td>
             <td>HTMLElement</td>
             <td>null</td>
