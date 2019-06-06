@@ -84,13 +84,13 @@ Destroys the flatpickr instance, cleans up - removes event listeners, restores i
 A string representation of`dateObj`,  formatted as per `formatStr`
 
 
-### jumpToDate(date)
+### jumpToDate(date, triggerChange)
 
 Sets the calendar view to the year and month of `date`, which can be a date string, a Date, or nothing.
 
 If`date`is undefined, the view is set to the latest selected date, the `minDate`, or today's date
 
-
+If `triggerChange` is set to `true`, the `onMonthChange` and `onYearChange` hooks are triggered, but only if the new values differ.
 ### open()
 Shows/opens the calendar.
 
