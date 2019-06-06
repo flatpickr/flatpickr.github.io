@@ -29,7 +29,8 @@ pygmentsStyle = "manni"
     custom_css = [
         "site.css",
         "https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/flatpickr.css",
-        "https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/plugins/confirmDate/confirmDate.css"
+        "https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/plugins/confirmDate/confirmDate.css",
+        "https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/plugins/monthSelect/style.css"
     ]
     custom_js  = [
         "init.js",
@@ -38,6 +39,7 @@ pygmentsStyle = "manni"
         "https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/plugins/weekSelect/weekSelect.js",
         "https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/plugins/rangePlugin.js",
         "https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/plugins/minMaxTimePlugin.js",
+        "https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/plugins/monthSelect/index.js",
         "flatpickr.js",
         "themer.js"
     ]

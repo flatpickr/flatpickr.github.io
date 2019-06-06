@@ -103,3 +103,23 @@ Custom minTime and maxTime per date.
 
 ```
 <input class=flatpickr type="text" placeholder="Select Date.." data-id="minMaxTimePlugin">
+
+## `monthSelectPlugin`
+
+Show a month-only calendar view
+
+```js
+{
+    plugins: [
+        new monthSelectPlugin({
+          shorthand: true, //defaults to false
+          dateFormat: "m.y", //defaults to "F Y"
+          altFormat: "F Y", //defaults to "F Y"
+          theme: "dark" // defaults to "light"
+        })
+    ]
+};
+
+```
+<input class=flatpickr type="text" placeholder="Select Date.." data-id="monthSelectPlugin">
+
