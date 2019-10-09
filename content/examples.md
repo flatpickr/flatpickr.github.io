@@ -371,8 +371,8 @@ Note that disabled dates (by either `minDate`, `maxDate`, `enable` or `disable`)
     enableTime: true,
     noCalendar: true,
     dateFormat: "H:i",
-    minDate: "16:00",
-    maxDate: "22:30",
+    minTime: "16:00",
+    maxTime: "22:30",
 }
 ```
 
