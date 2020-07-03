@@ -473,6 +473,7 @@ This permits additional markup, as well as custom elements to trigger the state 
 }
 ```
 
+Note that the selector for flatpicker should be the wrapping div with class `flatpickr` not the `input` tag.
 
 <p class="flatpickr input-group" data-id="strap">
     <input type="text" placeholder="Select Date.." data-input>
