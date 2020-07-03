@@ -168,12 +168,6 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td><code>"single"</code>,&nbsp;<code>"multiple"</code>, or&nbsp;<code>"range"</code></td>
         </tr>
         <tr>
-            <td>monthSelectorType</td>
-            <td>String</td>
-            <td>"dropdown"</td>
-            <td><code>"dropdown"</code> or&nbsp;<code>"static"</code></td>
-        </tr>
-        <tr>
             <td>nextArrow</td>
             <td>String</td>
             <td><code>&gt;</code></td>
@@ -265,6 +259,12 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td>Position the calendar inside the wrapper and next to the input element*.</td>
         </tr>
         <tr>
+            <td>showMonths</td>
+            <td>Integer</td>
+            <td>1</td>
+            <td>The number of months to be shown at the same time when displaying the calendar.</td>
+        </tr>
+        <tr>
             <td>time_24hr</td>
             <td>boolean</td>
             <td>false</td>
@@ -282,6 +282,14 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td>false</td>
             <td>
                 <a href="/examples/#flatpickr-external-elements">Custom elements and input groups</a>
+            </td>
+        </tr>
+        <tr>
+            <td>monthSelectorType</td>
+            <td>String</td>
+            <td>"dropdown"</td>
+            <td>
+                How the month should be displayed in the header of the calendar.<br><br><code>"dropdown"</code> or <code>"static"</code><br><br>If <code>showMonths</code> has a value greater than 1, the month is always shown as static.
             </td>
         </tr>
     </tbody>
