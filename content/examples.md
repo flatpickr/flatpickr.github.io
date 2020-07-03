@@ -486,3 +486,23 @@ Note that the selector for flatpicker should be the wrapping div with class `fla
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 17"><g></g><path d="M9.207 8.5l6.646 6.646-0.707 0.707-6.646-6.646-6.646 6.646-0.707-0.707 6.646-6.646-6.647-6.646 0.707-0.707 6.647 6.646 6.646-6.646 0.707 0.707-6.646 6.646z" fill="#000000" /></svg>
     </a>
 </p>
+
+## Custom parsing and formating
+
+Customize date parsing and formating e.g. to support custom formatting tokens.
+
+```js
+{
+  altInput: true,
+  dateFormat: "YYYY-MM-DD",
+  altFormat: "DD-MM-YYYY",
+  allowInput: true,
+  parseDate: (datestr, format) => {
+  	return moment(datestr, format, true).toDate();
+  },
+  formatDate: (date, format, locale) => {
+  	// locale can also be used
+  	return moment(date).format(format);
+  }
+}
+```
