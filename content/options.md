@@ -227,6 +227,14 @@ An always up-to-date list of options may be found at <a href="https://github.com
              </td>
         </tr>
         <tr>
+            <td>positionElement</td>
+            <td>Element</td>
+            <td>null</td>
+            <td>
+                The element off of which the calendar will be positioned.
+             </td>
+        </tr>
+        <tr>
             <td>prevArrow</td>
             <td>String</td>
             <td><code>&lt;</code></td>
