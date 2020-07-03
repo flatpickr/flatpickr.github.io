@@ -53,6 +53,12 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td>Defines how the date will be formatted in the&nbsp;<code>aria-label</code> for calendar days, using the same tokens as&nbsp;<code>dateFormat</code>. If you change this, you should choose a value that will make sense if a screen reader reads it out loud.</td>
         </tr>
         <tr>
+            <td>conjunction</td>
+            <td>String</td>
+            <td>null</td>
+            <td>When in "multiple" mode, <code>conjunction</code> is used to separate dates in the entry field.</td>
+        </tr>
+        <tr>
             <td>clickOpens</td>
             <td>Boolean</td>
             <td>true</td>
