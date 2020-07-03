@@ -168,6 +168,12 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td><code>"single"</code>,&nbsp;<code>"multiple"</code>, or&nbsp;<code>"range"</code></td>
         </tr>
         <tr>
+            <td>monthSelectorType</td>
+            <td>String</td>
+            <td>"dropdown"</td>
+            <td><code>"dropdown"</code> or&nbsp;<code>"static"</code></td>
+        </tr>
+        <tr>
             <td>nextArrow</td>
             <td>String</td>
             <td><code>&gt;</code></td>
