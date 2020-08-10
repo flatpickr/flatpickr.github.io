@@ -28,18 +28,18 @@ pygmentsStyle = "manni"
     # Custom assets
     custom_css = [
         "site.css",
-        "https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.css",
-        "https://cdn.jsdelivr.net/npm/flatpickr/dist/plugins/confirmDate/confirmDate.css",
-        "https://cdn.jsdelivr.net/npm/flatpickr/dist/plugins/monthSelect/style.css"
+        "http://localhost:8000/dist/flatpickr.css",
+        "http://localhost:8000/dist/plugins/confirmDate/confirmDate.css",
+        "http://localhost:8000/dist/plugins/monthSelect/style.css"
     ]
     custom_js  = [
         "init.js",
-        "https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.js",
-        "https://cdn.jsdelivr.net/npm/flatpickr/dist/plugins/confirmDate/confirmDate.js",
-        "https://cdn.jsdelivr.net/npm/flatpickr/dist/plugins/weekSelect/weekSelect.js",
-        "https://cdn.jsdelivr.net/npm/flatpickr/dist/plugins/rangePlugin.js",
-        "https://cdn.jsdelivr.net/npm/flatpickr/dist/plugins/minMaxTimePlugin.js",
-        "https://cdn.jsdelivr.net/npm/flatpickr/dist/plugins/monthSelect/index.js",
+        "http://localhost:8000/dist/flatpickr.js",
+        "http://localhost:8000/dist/plugins/confirmDate/confirmDate.js",
+        "http://localhost:8000/dist/plugins/weekSelect/weekSelect.js",
+        "http://localhost:8000/dist/plugins/rangePlugin.js",
+        "http://localhost:8000/dist/plugins/minMaxTimePlugin.js",
+        "http://localhost:8000/dist/plugins/monthSelect/index.js",
         "flatpickr.js",
         "themer.js"
     ]
