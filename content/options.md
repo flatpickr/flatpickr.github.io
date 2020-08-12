@@ -229,7 +229,7 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td>String</td>
             <td>"auto"</td>
             <td>
-                Where the calendar is rendered relative to the input.<br><br><code>"auto"</code>, <code>"above"</code> or <code>"below"</code>
+                Where the calendar is rendered relative to the input vertically and horizontally. In the format of "[vertical] [horizontal]". Vertical can be <code>auto</code>, <code>above</code> or <code>below</code> (required). Horizontal can be <code>left</code>, <code>center</code> or <code>right</code>.<br><br>e.g. <code>"above"</code> or <code>"auto center"</code>
              </td>
         </tr>
         <tr>
