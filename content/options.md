@@ -187,6 +187,14 @@ An always up-to-date list of options may be found at <a href="https://github.com
             Use it along with&nbsp;<code>enableTime</code>&nbsp;to create a time picker.</td>
         </tr>
         <tr>
+            <td>now</td>
+            <td>String/Date</td>
+            <td>new Date()</td>
+            <td>
+                Displayed when the value is empty.
+            </td>
+        </tr>
+        <tr>
             <td>onChange</td>
             <td>Function, [functions]</td>
             <td>null</td>
