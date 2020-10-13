@@ -120,7 +120,7 @@ An always up-to-date list of options may be found at <a href="https://github.com
         <tr>
             <td>enable</td>
             <td>Array</td>
-            <td>[]</td>
+            <td>undefined</td>
             <td>
                 See&nbsp;<a href="/examples/#disabling-all-dates-except-select-few">Enabling dates</a>
             </td>
