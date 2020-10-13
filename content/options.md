@@ -38,7 +38,7 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td>allowInput</td>
             <td>Boolean</td>
             <td>false</td>
-            <td>Allows the user to enter a date directly input the input field. By default, direct entry is disabled.</td>
+            <td>Allows the user to enter a date directly into the input field. By default, direct entry is disabled.</td>
         </tr>
         <tr>
             <td>appendTo</td>
