@@ -41,6 +41,12 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td>Allows the user to enter a date directly into the input field. By default, direct entry is disabled.</td>
         </tr>
         <tr>
+            <td>allowInvalidPreload</td>
+            <td>Boolean</td>
+            <td>false</td>
+            <td>Allows the preloading of an invalid date. When disabled, the field will be cleared if the provided date is invalid</td>
+        </tr>
+        <tr>
             <td>appendTo</td>
             <td>HTMLElement</td>
             <td>null</td>
