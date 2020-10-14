@@ -38,7 +38,7 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td>allowInput</td>
             <td>Boolean</td>
             <td>false</td>
-            <td>Allows the user to enter a date directly input the input field. By default, direct entry is disabled.</td>
+            <td>Allows the user to enter a date directly into the input field. By default, direct entry is disabled.</td>
         </tr>
         <tr>
             <td>allowInvalidPreload</td>
@@ -257,12 +257,6 @@ An always up-to-date list of options may be found at <a href="https://github.com
             <td>Boolean</td>
             <td>false</td>
             <td>Show the month using the shorthand version (ie, Sep instead of September).</td>
-        </tr>
-        <tr>
-            <td>showMonths</td>
-            <td>Integer</td>
-            <td>1</td>
-            <td>The number of months showed.</td>
         </tr>
         <tr>
             <td>static</td>
