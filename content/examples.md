@@ -246,9 +246,7 @@ This is the `enable` option, which takes in an array of date strings, date range
     enable: [
         function(date) {
             // return true to enable
-
             return (date.getMonth() % 2 === 0 && date.getDate() < 15);
-
         }
     ]
 }
