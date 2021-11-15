@@ -225,6 +225,12 @@ An always up-to-date list of options may be found at <a href="https://github.com
             </td>
         </tr>
         <tr>
+            <td>closeOnSelect</td>
+            <td>Boolean</td>
+            <td>true</td>
+            <td>Close Calendar once a date has been selected</td>
+        </tr>
+        <tr>
             <td>parseDate</td>
             <td>Function</td>
             <td>false</td>
