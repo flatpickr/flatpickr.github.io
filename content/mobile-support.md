@@ -25,6 +25,6 @@ If you'd like to disable native datetime inputs in all cases (not recommended), 
 
 ```js
 {
-    disableMobile: "true"
+    disableMobile: true
 }
 ```
