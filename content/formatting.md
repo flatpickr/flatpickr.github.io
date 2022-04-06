@@ -120,7 +120,7 @@ Each character in the table below can be used in `dateFormat` and `altFormat` op
 <tr>
 <td>G</td>
 <td>Hours, 2 digits with leading zeros</td>
-<td>1 to 12</td>
+<td>01 to 12</td>
 </tr>
 <tr>
 <td>i</td>
@@ -135,7 +135,7 @@ Each character in the table below can be used in `dateFormat` and `altFormat` op
 <tr>
 <td>s</td>
 <td>Seconds</td>
-<td>0, 1 to 59</td>
+<td>0 to 59</td>
 </tr>
 <tr>
 <td>K</td>
